@@ -1,0 +1,25 @@
+{
+    "name": "jeremytubbs/yp-client",
+    "description": "Yellow Pages Client",
+    "keywords": ["yp", "yellowpages", "search", "api"],
+    "authors": [
+        {
+            "name": "jeremytubbs",
+            "email": "jeremytubbs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jeremytubbs\\YPClient\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
