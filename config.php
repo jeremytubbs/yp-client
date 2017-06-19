@@ -18,4 +18,8 @@ return [
         'pagenum' => 1,
     ];
 
+    'cacheDriver' = 'default',
+
+    'TTL' = 82800, // seconds (23 hours)
+
 ];
